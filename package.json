@@ -1,14 +1,14 @@
 {
-  "name": "javascript-library-template",
+  "name": "FaceVerify",
   "version": "0.0.0-development",
   "private": false,
-  "description": "JavaScript library template to focus on ⌨️ coding, 🙌 collaborating and 🚀 shipping",
+  "description": "JavaScript library focus on detection face",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vvo/javascript-library-template.git"
+    "url": "https://github.com/Wielqus/FaceVerify-JavaScript.git"
   },
   "license": "MIT",
-  "author": "Vincent Voyer <vincent@codeagain.com>",
+  "author": "Jakub Wielgus <wielqus@gmail.com>",
   "sideEffects": false,
   "main": "dist/",
   "module": "lib/",
@@ -87,7 +87,7 @@
     "jest-date-mock": "1.0.8",
     "prettier": "2.1.2",
     "prettier-plugin-packagejson": "2.2.7",
-    "semantic-release": "17.2.2",
+    "semantic-release": "^17.2.2",
     "semantic-release-cli": "5.4.0"
   },
   "renovate": {
