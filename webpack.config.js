@@ -7,4 +7,17 @@ module.exports = {
     filename: 'index.js',
     library: 'FaceVerify',
   },
+  module: {
+    rules: [
+      {
+        test: /\.(weights)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+    ],
+  },
+  
 };
