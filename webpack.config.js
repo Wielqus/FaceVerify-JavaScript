@@ -1,11 +1,11 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-  entry: './lib/index.js',
+  entry: "./lib/index.js",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'index.js',
-    library: 'FaceVerify',
+    path: path.resolve(__dirname, "dist"),
+    filename: "index.js",
+    library: "FaceVerify",
   },
   module: {
     rules: [
@@ -13,11 +13,10 @@ module.exports = {
         test: /\.(weights)$/i,
         use: [
           {
-            loader: 'file-loader',
+            loader: "file-loader",
           },
         ],
       },
     ],
   },
-  
 };
