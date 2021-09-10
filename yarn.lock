@@ -8722,10 +8722,10 @@ seedrandom@2.4.3:
   resolved "https://registry.npmjs.org/seedrandom/-/seedrandom-2.4.3.tgz"
   integrity sha1-JDhQTa0zkXMUv/GKxNeU8W1qrsw=
 
-semantic-release-cli@5.4.3:
-  version "5.4.3"
-  resolved "https://registry.npmjs.org/semantic-release-cli/-/semantic-release-cli-5.4.3.tgz"
-  integrity sha512-m0o7ofAf1jWDva6FWhIiqABYbywV81iQW8nkrhlDTA+J59YmSxJ1wW2FQ5xHuJCBtO56i4A4McK1kdxNjqNb7Q==
+semantic-release-cli@5.4.4:
+  version "5.4.4"
+  resolved "https://registry.npmjs.org/semantic-release-cli/-/semantic-release-cli-5.4.4.tgz"
+  integrity sha512-z/oX4LjhTon7+bpXcEvgQz8iRuWAhEPtDvVyvycNAq4dBopX+oXIMe3TlmtNWShhT2kQTDlXGZnXJxVtDMQgIg==
   dependencies:
     babel-polyfill "^6.26.0"
     babel-preset-env "^1.6.1"
