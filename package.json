@@ -77,9 +77,9 @@
     "face-api.js": "^0.22.2"
   },
   "devDependencies": {
-    "@babel/cli": "7.12.17",
-    "@babel/core": "7.12.17",
-    "@babel/preset-env": "7.12.17",
+    "@babel/cli": "7.25.9",
+    "@babel/core": "7.25.9",
+    "@babel/preset-env": "7.25.9",
     "@types/jest": "27.0.2",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.6.3",
